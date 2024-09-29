@@ -40,6 +40,10 @@ body {
     padding: 0;
 }
 
+.form-control {
+    margin-right: 10px; /* Adds space to the right of the input */
+}
+
 
 
 
@@ -151,3 +155,25 @@ body {
 .next {
     right: 10px;
 }
+
+
+
+#logout {
+    background-color: white; /* Red background */
+    color: white; /* White text */
+    border: solid; /* No border */
+    padding: 5px 10px; /* Padding for a larger button */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 15px; /* Larger font */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+    #logout:hover {
+        background-color: #d32f2f; /* Darker red on hover */
+        transform: scale(1.05); /* Slightly enlarge on hover */
+    }
+
+    #logout:focus {
+        outline: none; /* Remove default focus outline */
+    }

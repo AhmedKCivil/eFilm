@@ -1,4 +1,5 @@
 ﻿using eFilm.Data.Base;
+using eFilm.Data.Services.Interfaces;
 using eFilm.Models;
 using Microsoft.EntityFrameworkCore;
 using System;

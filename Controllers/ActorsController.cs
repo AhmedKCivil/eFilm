@@ -1,26 +1,12 @@
-﻿using eFilm.Controllers;
-using eFilm.Data;
-using eFilm.Data.Base;
-using eFilm.Data.Services;
+﻿using eFilm.Data.Services.Interfaces;
 using eFilm.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.ActionConstraints;
-using Microsoft.Identity.Client;
-using System.Threading.Tasks;
 
 namespace eFilm.Controllers
 {
     public class ActorsController : Controller
     {
-
-        //private readonly ApplicationDbContext _db;
-
-        //public ActorsController(ApplicationDbContext db)
-        //{
-        //    _db = db;
-
-        //}
 
         private readonly IActorsService _service;
 
